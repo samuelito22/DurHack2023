@@ -1,0 +1,30 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+    font-weight: 500;
+    background-color: var(--dark-background);
+
+}
+*{
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+:root {
+  --gray-shade1: #888899; /* A shade of gray that could be used in various contexts */
+  --dark-background: #343541; /* A general dark background color for any element */
+  --neutral-accent: #40414f; /* A neutral accent color for miscellaneous use */
+  --deep-gray: #202123; /* A deep gray color for general use in dark themes or elements */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800&display=swap');

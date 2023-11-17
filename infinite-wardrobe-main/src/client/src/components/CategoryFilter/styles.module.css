@@ -1,0 +1,13 @@
+.filter_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.filter_section {
+  padding: 20px;
+  flex: 0.1;
+  color: white;
+  text-align: center;
+}
+h3 {
+  white-space: nowrap;
+}

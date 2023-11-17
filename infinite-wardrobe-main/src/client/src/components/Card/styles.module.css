@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--neutral-accent);
+    border-radius: 12px;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    max-width: 200px;
+}
+
+.image {
+    flex: 0.9;
+    width: 100%;
+    object-fit: cover;
+}
+
+.title {
+    flex: 0.1;
+    padding: 0 10px;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 150px;
+    }
+  }
